@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1483968185 source:c:\users\valentinpalade28\desktop\flappy bird\main.cpp
+	"shape.h"
+
+1483968210 c:\users\valentinpalade28\desktop\flappy bird\shape.h
+	<iostream>
+	<windows.h>
+
+1483968185 source:c:\users\valentinpalade28\desktop\flappy bird\menu.cpp
+	"shape.h"
+
