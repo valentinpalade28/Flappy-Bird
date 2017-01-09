@@ -10,7 +10,7 @@ int main()
         case '1':
         {
             play:
-            //game();
+            game();
             break;
         }
         case '2':
