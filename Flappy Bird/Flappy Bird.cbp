@@ -33,9 +33,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="bird.cpp" />
+		<Unit filename="endgame.cpp" />
 		<Unit filename="game.cpp" />
+		<Unit filename="gameover.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
+		<Unit filename="pipes.cpp" />
 		<Unit filename="screen.cpp" />
 		<Unit filename="shape.cpp" />
 		<Unit filename="shape.h" />

@@ -2,7 +2,7 @@
 1483969021 source:c:\users\valentinpalade28\desktop\flappy bird\main.cpp
 	"shape.h"
 
-1483989512 c:\users\valentinpalade28\desktop\flappy bird\shape.h
+1484037322 c:\users\valentinpalade28\desktop\flappy bird\shape.h
 	<iostream>
 	<windows.h>
 	<conio.h>
@@ -10,15 +10,24 @@
 1483968185 source:c:\users\valentinpalade28\desktop\flappy bird\menu.cpp
 	"shape.h"
 
-1483989512 source:c:\users\valentinpalade28\desktop\flappy bird\game.cpp
+1484038430 source:c:\users\valentinpalade28\desktop\flappy bird\game.cpp
 	"shape.h"
 
 1483969629 source:c:\users\valentinpalade28\desktop\flappy bird\screen.cpp
 	"shape.h"
 
-1483988376 source:c:\users\valentinpalade28\desktop\flappy bird\shape.cpp
+1483989532 source:c:\users\valentinpalade28\desktop\flappy bird\shape.cpp
 	"shape.h"
 
 1483989512 source:c:\users\valentinpalade28\desktop\flappy bird\bird.cpp
+	"shape.h"
+
+1484037854 source:c:\users\valentinpalade28\desktop\flappy bird\pipes.cpp
+	"shape.h"
+
+1484038186 source:c:\users\valentinpalade28\desktop\flappy bird\endgame.cpp
+	"shape.h"
+
+1484037728 source:c:\users\valentinpalade28\desktop\flappy bird\gameover.cpp
 	"shape.h"
 

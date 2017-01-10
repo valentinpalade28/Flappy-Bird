@@ -11,3 +11,6 @@ void menu();
 void game();
 void screen();
 void bird();
+void pipes();
+bool gameover();
+void endgame();

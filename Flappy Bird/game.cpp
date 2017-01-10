@@ -10,21 +10,23 @@ void game()
             if(y<20)
             {
             c[x][y]=' ';
+            n[x][y]=0;
             }
             if(y==20)
             {
                 c[x][y]='-';
+                n[x][y]=2;
             }
         }
     }
     c[10][10]='*';
     screen();
     char s;
-    int var=10;
-    while(var)
+    while(1)
     {
         s='~';
         Sleep(0.2*1000);
+        t++;
         if(kbhit())
         {
             s=getch();
@@ -33,12 +35,19 @@ void game()
         for(x=0;x<30;x++)
         {
             c[x][20]='-';
+            n[x][20]=2;
         }
         bird();
+        if(gameover()==true)
+        {
+            endgame();
+            return;
+        }
+        pipes();
         screen();
 
         if(k>0) k++;
         if(k==3) k=0;
-        var--;
     }
+    return;
 }
