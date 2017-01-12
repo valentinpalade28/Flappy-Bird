@@ -44,7 +44,6 @@
 		<Unit filename="screen.cpp" />
 		<Unit filename="shape.cpp" />
 		<Unit filename="shape.h" />
-		<Unit filename="timer.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -19,12 +19,7 @@ void screen()
     {
         minutes++;
         seconds-=60;
-        cout<<"Your Time: "<<minutes<<" Minutes and "<<seconds<<" Seconds"<<endl;
     }
-    else if(minutes>0)
-    {
-        cout<<"Your Time: "<<minutes<<" Minutes and "<<seconds<<" Seconds"<<endl;
-    }
-    else cout<<cout<<"Your Time: "<<seconds<<" Seconds"<<endl;
+    cout<<"Your Time: "<<minutes<<" Minutes and "<<seconds<<" Seconds"<<endl;
     cout<<"Your Score: "<<score<<" Points"<<endl;
 }
