@@ -2,7 +2,6 @@
 
 bool gameover()
 {
-    int x,y;
     if(birdy>19)
     {
         c[birdx][19]='*';

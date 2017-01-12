@@ -22,8 +22,13 @@ void game()
     c[10][10]='*';
     screen();
     char s;
+    minutes=1;
+    seconds=0;
+    startTime=time(NULL);
     while(1)
     {
+
+
         s='~';
         Sleep(0.2*1000);
         t++;
@@ -38,12 +43,14 @@ void game()
             n[x][20]=2;
         }
         bird();
+        checkscore();
         if(gameover()==true)
         {
             endgame();
             return;
         }
         pipes();
+        endTime=time(NULL);
         screen();
 
         if(k>0) k++;

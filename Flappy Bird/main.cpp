@@ -27,7 +27,7 @@ int main()
 
     quit:
     {
-        cout<<"You have left the game.";
+        cout<<"You have left the game."<<endl<<endl;
     }
     return 0;
 }

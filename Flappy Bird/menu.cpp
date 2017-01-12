@@ -3,6 +3,7 @@
 void menu()
 {
     system("cls");
+    color(9);
     cout<<""<<endl;
     cout<<"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "<<endl;
     cout<<"X                                                        X "<<endl;
