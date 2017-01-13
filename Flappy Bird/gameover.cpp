@@ -10,13 +10,25 @@ bool gameover()
     }
     else
     {
-        if(n[birdx][birdy]==2 && (c[birdx][birdy]=='|' || c[birdx][birdy]=='*'))
+        if(n[birdx][birdy]==2 && c[birdx][birdy]=='|')
         {
             if(cond==1)
             {
-                c[birdx][birdy]='*';
-                c[birdx-1][19]=' ';
-                return false;
+                var++;
+                if(var==3)
+                {
+                    cond=4;
+                    var=0;
+                    c[birdx][birdy]='|';
+                    c[birdx-1][19]='*';
+                    return true;
+                }
+                else
+                {
+                    c[birdx][birdy]='*';
+                    c[birdx-1][19]=' ';
+                    return false;
+                }
             }
             c[birdx][birdy]='|';
             c[birdx-1][19]='*';

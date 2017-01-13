@@ -10,7 +10,7 @@ extern ifstream fin;
 extern ofstream gin;
 
 extern char c[30][21];
-extern int n[30][21],t,k,bt,birdx,birdy,seconds,minutes,score,minutes,seconds,highscore,cond;
+extern int n[30][21],t,k,bt,birdx,birdy,seconds,minutes,score,minutes,seconds,highscore,cond,var;
 extern time_t startTime,endTime;
 extern bool err;
 
