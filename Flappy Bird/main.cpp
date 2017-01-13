@@ -21,6 +21,7 @@ int main()
         if(nr>0)
         {
             score=0;
+            cond=4;
             cout<<"Do you want to play again? [y/n] "<<endl;
             cin>>sl;
             if(sl=='n'||sl=='N') goto quit;

@@ -28,7 +28,12 @@ void game()
     while(1)
     {
         s='~';
-        Sleep(0.2*1000);
+        if(cond==4||cond==1)
+            Sleep(0.2*1000);
+        else if(cond==0)
+            Sleep(0.3*1000);
+        else if(cond==2)
+            Sleep(0.1*1000);
         t++;
         if(kbhit())
         {
